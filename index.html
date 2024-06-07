@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>
+        survey-form
+    </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Create Form -->
+    <form id="form">
+        <header>
+
+            <h1 id="g1">Survey Form</h1>
+            <p>Feel Free To Answer The Questions Below Based On Your Own Experience And Opinion. If You Are Not Convenient In Answering A Particular Question Please Skip It By Answering "No". Every Answer Would Be Very Appreciated. Thank You For Your Time.</p>
+            
+            </header>
+
+    <main class="main">
+        <section class="section1">
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Your Name
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="text" id="name" 
+                   placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+               Your Email Address
+            </label>
+
+            <!-- Input Type Email-->
+            <input type="email" id="email" 
+            placeholder="user@user.com">
+        </div>
+
+        <div class="form-control">
+            <label for="Number" id="label-phone">
+               Your Phone Number
+            </label>
+
+            <!-- Input Type Email-->
+            <input type="tel" id="tel" 
+            placeholder="9999999999">
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Where Do You Live ?
+            </label>
+
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="Select">Select</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Chandigarh">Chandigarh</option>
+            </select>
+        </div>
+        <div class="form-control">
+        <form action="">
+        
+            <fieldset class="age" >Age<br><br>
+            <!-- Input Type Radio Button -->
+            <label for="15-20">
+                <input type="radio" id="15-20" 
+                       name="yes"> 15-20
+                  </input>
+            </label>
+            <label for="21-30">
+                <input type="radio" id="21-30" 
+                       name="yes"> 21-30
+                  </input>
+            </label>
+            <label for="31-40">
+                <input type="radio" id="31-40" 
+                       name="yes"> 31-40
+                  </input>
+            </label>
+            <label for="41-50">
+                <input type="radio" id="41-50" 
+                       name="yes"> 41-50
+                  </input>
+            </label>
+            <label for="no">
+                <input type="radio" id="no" 
+                       name="yes"> prefer not to say
+                  </input>
+            </label>
+        </fieldset>
+        
+         <Br>
+            
+            <label>
+                How would you rate your proficiency in coding?
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="Beginner">
+                <input type="radio" id="Beginner" 
+                       name="check"> Beginner
+                  </input>
+            </label>
+            <label for="Intermediate">
+                <input type="radio" id="Intermediate" 
+                       name="check"> Intermediate
+                  </input>
+            </label>
+            <label for="Advance">
+                <input type="radio" id="Advance" 
+                       name="check"> Advance
+                  </input>
+            </label>
+        
+    </form>
+        </div>
+        </section>
+
+
+
+
+
+        <section class="section2">
+            <form action="">
+
+        <div class="form-control">
+
+            <label>
+                Have You Ever Appered in any coding contest?
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="Yes">
+                <input type="radio" id="Yes" 
+                       name="yes"> Yes
+                  </input>
+            </label>
+            <label for="No">
+                <input type="radio" id="No" 
+                       name="yes"> No
+                  </input>
+            </label>
+            
+        </div>
+          
+        <div class="form-control">
+            <label for="comment">
+                Discuss what drives your passion for coding and outline your aspirations in the field.
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"></textarea>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                What are some of the challenges you face while coding?
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"></textarea>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Please list the Data Structures you have a strong understanding of.
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"></textarea>
+        </div>
+
+            <!-- Multi-line Text Input Control -->
+            <button type="submit" value="submit">
+                Submit Form
+            </button>
+            </form>
+        </section>
+
+    </main>
+    </form>
+    
+   
+</body>
+
+</html>
